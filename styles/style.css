@@ -87,6 +87,41 @@ nav img {
     border-top: 0px;
 }
 
+.project-title{
+    background-color: #EDEFF0;
+}
+
+.button-column-line{
+    border: 1px solid #EDEFF0;
+}
+
+.button-column{
+    border: 1px solid #F2526E;
+    border-radius: 4px;
+    color: #F2526E;
+    background-color: transparent;
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.button-column:hover{
+    background-color: #F2526E;
+    color: white;
+}
+
+.button1{
+    margin-left: 12px;
+}
+
+.button3{
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
 .footer{
     background-color: #EDEFF0;
     border: #FAFAFA 1px solid;
