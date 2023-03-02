@@ -10,9 +10,39 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
 }
 
-.mis-viaticos{
+.main-side{
     border: 1px solid #EDEFF0;
     border-top: 0px;
+}
+
+.main-side .col-12{
+    border: 1px solid #EDEFF0;
+}
+
+.project-section p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+}
+
+.sub-section ul{
+    float: right;
+    padding-right: 2rem;
+}
+
+
+
+.main-side-header img{
+    width: 24px;
+    margin-right: 1.2rem;
+    margin-left: .5rem;
+}
+
+.main-side-header h4{
+    display: inline;
+    margin: 0;
+    vertical-align: middle;
 }
 
 .informacion{
