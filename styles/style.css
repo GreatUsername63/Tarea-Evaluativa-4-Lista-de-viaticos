@@ -1,13 +1,51 @@
-.main-header{
+.main-header {
+    display: flex;
+    align-items: center;
     background-color: #DC3545;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 24px;
-    line-height: 32.78px;
-    padding-top: .75em;
+    line-height: 3.5rem;
     padding-left: .5em;
-    padding-bottom: .5em;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+nav {
+    height: 3.5rem;
+}
+
+#sidebar-nav {
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(220,53,69, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav img {
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+#sidebar-links, #sidebar-links a {
+    background-color: #FAFAFA;
+}
+
+#sidebar-links {
+    padding-top: 3rem;
+}
+
+#sidebar-links li:hover {
+    border: 1px solid #DC3545;
+}
+
+#sidebar-links li {
+    line-height: 2em;
+}
+
+#sidebar-collapsable {
+    margin-left: 0.5rem;
 }
 
 .main-side{
