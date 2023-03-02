@@ -160,5 +160,6 @@ nav img {
     border: #FAFAFA 1px solid;
     padding-top: 1em;
     padding-bottom: 1.5em;
-    padding-left: 1.75em;
+    padding-left: 16px;
+    margin-right: 0;
 }
