@@ -90,6 +90,10 @@ nav img {
 .project-title{
     background-color: #EDEFF0;
 }
+.project-title h4{
+    padding-left: 12px;
+    font-size: 18px;
+}
 
 .button-column-line{
     border: 1px solid #EDEFF0;
@@ -120,6 +124,36 @@ nav img {
 .button3{
     margin-left: 10px;
     margin-right: 14px;
+}
+
+.tabla{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.tabla table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla th, td{
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-top: 9px;
+    font-size: 18px;
+}
+
+.tabla th{
+    background-color: #F5F5F5;
+}
+
+.subtotal{
+    background-color: #EDEFF0;
+    border: 1px solid black;
+}   
+
+.tabla tr{
+    border: 1px solid #EDEFF0;
 }
 
 .footer{
