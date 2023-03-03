@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Mulish';
+}
+
 .main-header {
     display: flex;
     align-items: center;
@@ -153,6 +159,7 @@ nav img {
 
 .tabla tr{
     border: 1px solid #EDEFF0;
+    
 }
 
 .footer{
